@@ -34,7 +34,7 @@ class LoginFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.btnMoveHomeScreen.setOnClickListener {
             val controller = findNavController()
-            controller.navigate(R.id.action_loginFragment_to_homeFragment)
+            controller.navigate(R.id.action_loginFragment2_to_homeFragment2)
         }
     }
 

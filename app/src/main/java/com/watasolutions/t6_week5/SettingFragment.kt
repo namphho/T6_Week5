@@ -34,7 +34,7 @@ class SettingFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.btnSignout.setOnClickListener {
             val controller = findNavController()
-            controller.navigate(R.id.action_settingFragment_to_loginFragment)
+            controller.navigate(R.id.action_settingFragment2_to_loginFragment2)
         }
     }
 }

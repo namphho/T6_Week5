@@ -39,7 +39,7 @@ class HomeFragment : Fragment() {
         }
         binding.btnMoveSetting.setOnClickListener {
             val controller = findNavController()
-            controller.navigate(R.id.action_homeFragment_to_settingFragment)
+            controller.navigate(R.id.action_homeFragment2_to_settingFragment2)
         }
     }
 
